@@ -32,7 +32,7 @@ public class VerifyTitle {
 
 	@AfterTest
 	public void closeBrowser() {
-		driver.close()
+		driver.close();
 		//Comment Added
 	}
 
